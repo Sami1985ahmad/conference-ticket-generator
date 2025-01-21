@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Conference ticket generator</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mobile-container" class="decktop-container">
+      <div class="heading">
+        <img src="./assets/images/logo-mark.svg" alt="" class="icon-heading" />
+        <h2 class="top-heading">Coding Conf</h2>
+        <h1 class="main-heading">
+          Your Journey to Coding Conf 2025 Starts Here!
+        </h1>
+        <p class="message-heading">
+          Secure your spot at next year's biggest coding conference.
+        </p>
+      </div>
+
+      <div class="form-container">
+        <form
+          class="avatar"
+          action=""
+          method="post"
+          enctype="multipart/form-data"
+        >
+          <label for="avatar">Upload Avatar</label>
+          <div class="upload-area" id="dropZone">
+            <p>Drag and drop or click to upload</p>
+            <input
+              type="file"
+              class="file-input"
+              id="fileInput"
+              accept="image/*"
+            />
+            <div id="preview"></div>
+          </div>
+          <p class="avatar-upload">
+            Upload your photo (JPG or PNG, max size: 500KB).
+          </p>
+        </form>
+        <form action="" class="info">
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+          />
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@email.com"
+          />
+          <label for="github">GitHub Username</label>
+          <input
+            type="text"
+            id="github"
+            name="github"
+            placeholder="@username"
+          />
+          <button type="submit" class="generate-ticket">
+            Generate My Ticket
+        </form>
+      </div>
+    </div>
+
+    
+
+    
+  </body>
+</html>
