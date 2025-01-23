@@ -4,39 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-
-    <title>Frontend Mentor | Conference ticket generator</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <title>Conference ticket generator</title>
   </head>
   <body>
-    <div class="mobile-container" class="decktop-container">
-      <div class="heading">
-        <img src="./assets/images/logo-mark.svg" alt="" class="icon-heading" />
-        <h2 class="top-heading">Coding Conf</h2>
+    <main class="mobile-container decktop-container">
+
+      <section class="heading">
+        <nav class="logo-header">
+          <img src="./assets/images/logo-mark.svg" alt="" class="icon-heading" />
+          <h2 class="top-heading">Coding Conf</h2>
+        </nav>
+        
         <h1 class="main-heading">
           Your Journey to Coding Conf 2025 Starts Here!
         </h1>
         <p class="message-heading">
           Secure your spot at next year's biggest coding conference.
         </p>
-      </div>
+      <section/>
 
       <div class="form-container">
         <form
@@ -86,7 +81,7 @@
             Generate My Ticket
         </form>
       </div>
-    </div>
+    </main>
 
     
 
